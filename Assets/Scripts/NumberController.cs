@@ -13,7 +13,7 @@ public class NumberController
     {
         _displayedValue = 0;
         _number = number;
-        _animator = new AnimationInstant();
+        _animator = new NumberAnimationTest();
 
     }
 
@@ -30,20 +30,3 @@ public class NumberController
     }
 }
 
-public interface INumberAnimator
-{
-    void AbortCurrentAnimation();
-    void PlayNewAnimation(int oldVal, int newVal, Number number);
-}
-
-public class AnimationInstant : INumberAnimator
-{
-    public void AbortCurrentAnimation()
-    { }
-
-    public void PlayNewAnimation(int oldVal, int newVal, Number number)
-    {
-        number._onenessLabel.text = (newVal / 1 % 10).ToString();
-        number._tensLabel.text = (newVal / 10 % 10).ToString();
-    }
-}

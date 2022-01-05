@@ -7,7 +7,7 @@ using TMPro;
 
 public class Clock : MonoBehaviour
 {
-
+    public static Clock Instance;
     [SerializeField] private TextMeshPro _hourTensLabel,
         _hourOnenessLabel,
         _minuteTensLabel,
@@ -20,6 +20,8 @@ public class Clock : MonoBehaviour
 
     void Start()
     {
+        Instance = this;
+
         _hoursNumber = new Number(_hourTensLabel, _hourOnenessLabel);
         _minutesNumber = new Number(_minuteTensLabel, _minuteOnenessLabel);
         _secondsNumber = new Number(_secondsTensLabel, _secondsOnenessLabel);
