@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   DisplaySeconds: 1
-  Font: {fileID: 0}
-  FontSize: 36
-  SpacingDigits: 0
-  SpacingNumbers: 0
+  HourFont: {fileID: 11400000, guid: 818bdc9b9b1a620429225ec136d620ed, type: 2}
+  HourFontSize: 36
+  HourColor: {r: 1, g: 1, b: 1, a: 1}
+  HourSpacingDigits: 0.12
+  HourSpacingNumbers: 0
+  MinuteFont: {fileID: 11400000, guid: 818bdc9b9b1a620429225ec136d620ed, type: 2}
+  MinuteFontSize: 36
+  MinuteColor: {r: 1, g: 1, b: 1, a: 1}
+  MinuteSpacingDigits: 0
+  MinuteSpacingNumbers: 0
+  SecondsFont: {fileID: 11400000, guid: 818bdc9b9b1a620429225ec136d620ed, type: 2}
+  SecondsFontSize: 36
+  SecondsColor: {r: 1, g: 1, b: 1, a: 1}
+  SecondsSpacingDigits: 0
+  SecondsSpacingNumbers: 0

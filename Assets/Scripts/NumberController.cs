@@ -13,7 +13,7 @@ public class NumberController
     {
         _displayedValue = -1;
         _number = number;
-        _animator = new NumberAnimationTest();
+        _animator = new NumberAnimationSlide();
 
     }
 

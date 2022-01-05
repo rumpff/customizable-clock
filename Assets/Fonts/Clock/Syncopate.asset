@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db5852bb7f9697479aeaac533ea6a73, type: 3}
   m_Name: Syncopate
   m_EditorClassIdentifier: 
+  FontAsset: {fileID: 11400000, guid: fa59a819dc12caf498fd82c265b9742e, type: 2}
+  BaseSpacing: 3
