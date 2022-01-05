@@ -12,16 +12,19 @@ public class ClockSettings : ScriptableObject
     // (this could be cleaner but im literally making a clock)
     public ClockFont HourFont;
     public float HourFontSize = 36;
+    public Color HourColor = Color.white;
     public float HourSpacingDigits = 0;
     public float HourSpacingNumbers = 0;
 
     public ClockFont MinuteFont;
     public float MinuteFontSize = 36;
+    public Color MinuteColor = Color.white;
     public float MinuteSpacingDigits = 0;
     public float MinuteSpacingNumbers = 0;
 
     public ClockFont SecondsFont;
     public float SecondsFontSize = 36;
+    public Color SecondsColor = Color.white;
     public float SecondsSpacingDigits = 0;
     public float SecondsSpacingNumbers = 0;
 }

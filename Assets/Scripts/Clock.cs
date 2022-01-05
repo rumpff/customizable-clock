@@ -151,6 +151,7 @@ public class Clock : MonoBehaviour
             {
                 label.font = Settings.HourFont.FontAsset;
                 label.fontSize = Settings.HourFontSize;
+                label.color = Settings.HourColor;
             }
         }
 
@@ -166,6 +167,7 @@ public class Clock : MonoBehaviour
             {
                 label.font = Settings.MinuteFont.FontAsset;
                 label.fontSize = Settings.MinuteFontSize;
+                label.color = Settings.MinuteColor;
             }
         }
 
@@ -181,6 +183,7 @@ public class Clock : MonoBehaviour
             {
                 label.font = Settings.SecondsFont.FontAsset;
                 label.fontSize = Settings.SecondsFontSize;
+                label.color = Settings.SecondsColor;
             }
         }
     }
