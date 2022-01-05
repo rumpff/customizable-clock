@@ -11,9 +11,14 @@ public class NumberController
 
     public NumberController(Number number)
     {
-        _displayedValue = 0;
+        _displayedValue = -1;
         _number = number;
         _animator = new NumberAnimationTest();
+
+    }
+
+    public void UpdateSettings()
+    {
 
     }
 
